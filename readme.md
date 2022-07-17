@@ -1,4 +1,4 @@
-# Livewire - Notifier
+# Livewire - Notifier.
 
 [![Latest Stable Version](https://poser.pugx.org/slakbal/tall-notifier/v)](//packagist.org/packages/slakbal/tall-notifier) [![run-tests](https://github.com/slakbal/tall-notifier/actions/workflows/run-tests.yml/badge.svg)](https://github.com/slakbal/tall-notifier/actions/workflows/run-tests.yml) [![Total Downloads](https://poser.pugx.org/slakbal/tall-notifier/downloads)](//packagist.org/packages/slakbal/tall-notifier) [![License](https://poser.pugx.org/slakbal/tall-notifier/license)](//packagist.org/packages/phpunit/phpunit)
 
