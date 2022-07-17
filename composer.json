@@ -1,0 +1,53 @@
+{
+    "name": "slakbal/tall-notifier",
+    "description": "Simple Livewire notifications on TALL-stack, without any other dependencies.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Slakbal",
+            "email": "test@slakbal.com",
+            "homepage": "https://slakbal.com"
+        }
+    ],
+    "homepage": "https://github.com/slakbal/tall-notifier",
+    "keywords": [
+        "Laravel",
+        "TallNotifier",
+        "Toast",
+        "Livewire"
+    ],
+    "require": {
+        "illuminate/support": "~7|~8|~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.0",
+        "livewire/livewire": "^2.4",
+        "pestphp/pest": "^1.0",
+        "pestphp/pest-plugin-laravel": "^1.0",
+        "pestphp/pest-plugin-livewire": "^1.0",
+        "orchestra/canvas": "^6.1",
+        "nunomaduro/collision": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slakbal\\TallNotifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slakbal\\TallNotifier\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slakbal\\TallNotifier\\TallNotifierServiceProvider"
+            ],
+            "aliases": {
+                "TallNotifier": "Slakbal\\TallNotifier\\Facades\\LaravelTallNotifier"
+            }
+        }
+    }
+}
