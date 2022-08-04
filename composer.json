@@ -2,7 +2,6 @@
     "name": "slakbal/tall-notifier",
     "description": "Simple Livewire notifications on TALL-stack, without any other dependencies.",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Slakbal",
